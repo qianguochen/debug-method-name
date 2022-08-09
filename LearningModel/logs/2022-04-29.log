@@ -1,0 +1,29 @@
+2022-04-29 21:47:02.971 [main] INFO  edu.lu.uni.serval.deeplearner.Word2VecEncoder - Load & Vectorize Sentences....
+2022-04-29 21:47:02.980 [main] INFO  edu.lu.uni.serval.deeplearner.Word2VecEncoder - ****************Building model****************
+2022-04-29 21:47:03.039 [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+2022-04-29 21:47:03.133 [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for NativeOps: 12
+2022-04-29 21:47:03.291 [main] INFO  org.reflections.Reflections - Reflections took 95 ms to scan 10 urls, producing 29 keys and 189 values 
+2022-04-29 21:47:03.496 [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for BLAS: 12
+2022-04-29 21:47:03.501 [main] INFO  o.n.l.api.ops.executioner.DefaultOpExecutioner - Backend used: [CPU]; OS: [Linux]
+2022-04-29 21:47:03.501 [main] INFO  o.n.l.api.ops.executioner.DefaultOpExecutioner - Cores: [48]; Memory: [70.0GB];
+2022-04-29 21:47:03.501 [main] INFO  o.n.l.api.ops.executioner.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+2022-04-29 21:47:03.632 [main] INFO  edu.lu.uni.serval.deeplearner.Word2VecEncoder - ****************Fitting Word2Vec model****************
+2022-04-29 21:47:03.652 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Starting vocabulary building...
+2022-04-29 21:47:04.741 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [100000]; Current vocabulary size: [41784]; Sequences/sec: 91827.36; Words/sec: 1913609.73;
+2022-04-29 21:47:05.646 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [200000]; Current vocabulary size: [100983]; Sequences/sec: 110497.24; Words/sec: 2575847.51;
+2022-04-29 21:47:06.469 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [300000]; Current vocabulary size: [137900]; Sequences/sec: 121506.68; Words/sec: 2471307.41;
+2022-04-29 21:47:07.300 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [400000]; Current vocabulary size: [170197]; Sequences/sec: 120481.93; Words/sec: 2368636.14;
+2022-04-29 21:47:08.213 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [500000]; Current vocabulary size: [201703]; Sequences/sec: 109409.19; Words/sec: 2204846.83;
+2022-04-29 22:46:40.314 [main] INFO  edu.lu.uni.serval.deeplearner.Word2VecEncoder - Load & Vectorize Sentences....
+2022-04-29 22:46:40.322 [main] INFO  edu.lu.uni.serval.deeplearner.Word2VecEncoder - ****************Building model****************
+2022-04-29 22:46:40.346 [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+2022-04-29 22:46:40.409 [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for NativeOps: 12
+2022-04-29 22:46:40.486 [main] INFO  org.reflections.Reflections - Reflections took 55 ms to scan 10 urls, producing 29 keys and 189 values 
+2022-04-29 22:46:40.592 [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for BLAS: 12
+2022-04-29 22:46:40.595 [main] INFO  o.n.l.api.ops.executioner.DefaultOpExecutioner - Backend used: [CPU]; OS: [Linux]
+2022-04-29 22:46:40.595 [main] INFO  o.n.l.api.ops.executioner.DefaultOpExecutioner - Cores: [48]; Memory: [70.0GB];
+2022-04-29 22:46:40.596 [main] INFO  o.n.l.api.ops.executioner.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+2022-04-29 22:46:40.723 [main] INFO  edu.lu.uni.serval.deeplearner.Word2VecEncoder - ****************Fitting Word2Vec model****************
+2022-04-29 22:46:40.743 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Starting vocabulary building...
+2022-04-29 22:46:41.800 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [100000]; Current vocabulary size: [41784]; Sequences/sec: 94696.97; Words/sec: 1973410.04;
+2022-04-29 22:46:42.755 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [200000]; Current vocabulary size: [100983]; Sequences/sec: 104712.04; Words/sec: 2440978.01;

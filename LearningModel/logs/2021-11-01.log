@@ -1,0 +1,163 @@
+2021-11-01 09:11:11.343 [main] INFO  edu.lu.uni.serval.deeplearner.Word2VecEncoder - Load & Vectorize Sentences....
+2021-11-01 09:11:11.354 [main] INFO  edu.lu.uni.serval.deeplearner.Word2VecEncoder - ****************Building model****************
+2021-11-01 09:11:11.532 [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+2021-11-01 09:11:11.810 [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for NativeOps: 8
+2021-11-01 09:11:11.996 [main] INFO  org.reflections.Reflections - Reflections took 138 ms to scan 10 urls, producing 29 keys and 189 values 
+2021-11-01 09:11:12.240 [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for BLAS: 8
+2021-11-01 09:11:12.241 [main] INFO  o.n.l.api.ops.executioner.DefaultOpExecutioner - Backend used: [CPU]; OS: [Linux]
+2021-11-01 09:11:12.242 [main] INFO  o.n.l.api.ops.executioner.DefaultOpExecutioner - Cores: [16]; Memory: [64.0GB];
+2021-11-01 09:11:12.242 [main] INFO  o.n.l.api.ops.executioner.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+2021-11-01 09:11:12.318 [main] INFO  edu.lu.uni.serval.deeplearner.Word2VecEncoder - ****************Fitting Word2Vec model****************
+2021-11-01 09:11:12.334 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Starting vocabulary building...
+2021-11-01 09:11:15.701 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [63852], Current vocabulary size: [37433]; Sequences/sec: [18964.06];
+2021-11-01 09:11:15.708 [main] INFO  o.d.models.embeddings.loader.WordVectorSerializer - Projected memory use for model: [85.68 MB]
+2021-11-01 09:11:15.781 [main] INFO  o.d.models.embeddings.inmemory.InMemoryLookupTable - Initializing syn1...
+2021-11-01 09:11:15.792 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Building learning algorithms:
+2021-11-01 09:11:15.793 [main] INFO  o.d.models.sequencevectors.SequenceVectors -           building ElementsLearningAlgorithm: [SkipGram]
+2021-11-01 09:11:15.795 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Starting learning process...
+2021-11-01 09:11:26.184 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [1507151];  Lines vectorized so far: [63852]; learningRate: [1.0E-4]
+2021-11-01 09:11:26.185 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Time spent on training: 10389 ms
+2021-11-01 09:11:26.185 [main] INFO  edu.lu.uni.serval.deeplearner.Word2VecEncoder - ****************Writing word vectors to text file****************
+2021-11-01 09:11:26.378 [main] INFO  org.reflections.Reflections - Reflections took 189 ms to scan 10 urls, producing 373 keys and 1449 values 
+2021-11-01 09:11:35.540 [main] INFO  o.d.models.embeddings.loader.WordVectorSerializer - Wrote 37433 with size of 300
+2021-11-01 09:11:35.541 [main] INFO  edu.lu.uni.serval.deeplearner.Word2VecEncoder - ****************Finish off embedding****************
+
+2021-11-01 09:14:31.716 [main] INFO  edu.lu.uni.serval.deeplearner.Word2VecEncoder - Load & Vectorize Sentences....
+2021-11-01 09:14:31.720 [main] INFO  edu.lu.uni.serval.deeplearner.Word2VecEncoder - ****************Building model****************
+2021-11-01 09:14:31.744 [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+2021-11-01 09:14:31.803 [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for NativeOps: 8
+2021-11-01 09:14:31.884 [main] INFO  org.reflections.Reflections - Reflections took 59 ms to scan 10 urls, producing 29 keys and 189 values 
+2021-11-01 09:14:31.978 [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for BLAS: 8
+2021-11-01 09:14:31.980 [main] INFO  o.n.l.api.ops.executioner.DefaultOpExecutioner - Backend used: [CPU]; OS: [Linux]
+2021-11-01 09:14:31.980 [main] INFO  o.n.l.api.ops.executioner.DefaultOpExecutioner - Cores: [16]; Memory: [64.0GB];
+2021-11-01 09:14:31.980 [main] INFO  o.n.l.api.ops.executioner.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+2021-11-01 09:14:32.067 [main] INFO  edu.lu.uni.serval.deeplearner.Word2VecEncoder - ****************Fitting Word2Vec model****************
+2021-11-01 09:14:32.082 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Starting vocabulary building...
+2021-11-01 09:14:34.651 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [25492], Current vocabulary size: [12038]; Sequences/sec: [9926.79];
+2021-11-01 09:14:34.657 [main] INFO  o.d.models.embeddings.loader.WordVectorSerializer - Projected memory use for model: [27.55 MB]
+2021-11-01 09:14:34.685 [main] INFO  o.d.models.embeddings.inmemory.InMemoryLookupTable - Initializing syn1...
+2021-11-01 09:14:34.689 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Building learning algorithms:
+2021-11-01 09:14:34.689 [main] INFO  o.d.models.sequencevectors.SequenceVectors -           building ElementsLearningAlgorithm: [SkipGram]
+2021-11-01 09:14:34.692 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Starting learning process...
+2021-11-01 09:14:39.184 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [608236];  Lines vectorized so far: [25492]; learningRate: [1.0E-4]
+2021-11-01 09:14:39.184 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Time spent on training: 4492 ms
+2021-11-01 09:14:39.184 [main] INFO  edu.lu.uni.serval.deeplearner.Word2VecEncoder - ****************Writing word vectors to text file****************
+2021-11-01 09:14:39.325 [main] INFO  org.reflections.Reflections - Reflections took 136 ms to scan 10 urls, producing 373 keys and 1449 values 
+2021-11-01 09:14:42.351 [main] INFO  o.d.models.embeddings.loader.WordVectorSerializer - Wrote 12038 with size of 300
+2021-11-01 09:14:42.351 [main] INFO  edu.lu.uni.serval.deeplearner.Word2VecEncoder - ****************Finish off embedding****************
+
+2021-11-01 09:15:39.765 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - Load data....
+2021-11-01 09:15:39.778 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - Build model....
+2021-11-01 09:15:39.810 [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+2021-11-01 09:15:39.869 [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for NativeOps: 8
+2021-11-01 09:15:39.947 [main] INFO  org.reflections.Reflections - Reflections took 56 ms to scan 10 urls, producing 29 keys and 189 values 
+2021-11-01 09:15:40.042 [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for BLAS: 8
+2021-11-01 09:15:40.043 [main] INFO  o.n.l.api.ops.executioner.DefaultOpExecutioner - Backend used: [CPU]; OS: [Linux]
+2021-11-01 09:15:40.044 [main] INFO  o.n.l.api.ops.executioner.DefaultOpExecutioner - Cores: [16]; Memory: [48.0GB];
+2021-11-01 09:15:40.044 [main] INFO  o.n.l.api.ops.executioner.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+2021-11-01 09:15:40.817 [main] WARN  org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2021-11-01 09:15:41.036 [main] INFO  org.reflections.Reflections - Reflections took 134 ms to scan 10 urls, producing 373 keys and 1449 values 
+2021-11-01 09:15:41.823 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - Train model....
+2021-11-01 09:15:55.135 [main] INFO  o.d.optimize.listeners.ScoreIterationListener - Score at iteration 0 is 0.028129915427252794
+2021-11-01 09:15:55.705 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - batch: 1
+2021-11-01 09:16:08.824 [main] INFO  o.d.optimize.listeners.ScoreIterationListener - Score at iteration 1 is 0.031281714961639354
+2021-11-01 09:16:09.257 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - batch: 2
+2021-11-01 09:16:21.388 [main] INFO  o.d.optimize.listeners.ScoreIterationListener - Score at iteration 2 is 0.023152962411630958
+2021-11-01 09:16:21.773 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - batch: 3
+2021-11-01 09:16:33.037 [main] INFO  o.d.optimize.listeners.ScoreIterationListener - Score at iteration 3 is 0.017685392529858946
+2021-11-01 09:16:33.439 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - batch: 4
+2021-11-01 09:16:44.627 [main] INFO  o.d.optimize.listeners.ScoreIterationListener - Score at iteration 4 is 0.017523418795016406
+2021-11-01 09:16:45.011 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - batch: 5
+2021-11-01 09:16:57.141 [main] INFO  o.d.optimize.listeners.ScoreIterationListener - Score at iteration 5 is 0.023371941543369704
+2021-11-01 09:16:57.526 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - batch: 6
+2021-11-01 09:17:08.819 [main] INFO  o.d.optimize.listeners.ScoreIterationListener - Score at iteration 6 is 0.017666098497153206
+2021-11-01 09:17:09.203 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - batch: 7
+2021-11-01 09:17:20.960 [main] INFO  o.d.optimize.listeners.ScoreIterationListener - Score at iteration 7 is 0.020929826569228687
+2021-11-01 09:17:21.343 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - batch: 8
+2021-11-01 09:17:32.703 [main] INFO  o.d.optimize.listeners.ScoreIterationListener - Score at iteration 8 is 0.017597170509977413
+2021-11-01 09:17:33.095 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - batch: 9
+2021-11-01 09:17:44.626 [main] INFO  o.d.optimize.listeners.ScoreIterationListener - Score at iteration 9 is 0.01952552035984687
+2021-11-01 09:17:45.009 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - batch: 10
+2021-11-01 09:17:57.795 [main] INFO  o.d.optimize.listeners.ScoreIterationListener - Score at iteration 10 is 0.03387115025492095
+2021-11-01 09:17:58.178 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - batch: 11
+2021-11-01 09:18:11.268 [main] INFO  o.d.optimize.listeners.ScoreIterationListener - Score at iteration 11 is 0.03720675199997944
+2021-11-01 09:18:11.652 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - batch: 12
+2021-11-01 09:18:23.587 [main] INFO  o.d.optimize.listeners.ScoreIterationListener - Score at iteration 12 is 0.023217428632272864
+2021-11-01 09:18:23.969 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - batch: 13
+2021-11-01 09:18:35.875 [main] INFO  o.d.optimize.listeners.ScoreIterationListener - Score at iteration 13 is 0.02292532523084346
+2021-11-01 09:18:36.259 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - batch: 14
+2021-11-01 09:18:48.144 [main] INFO  o.d.optimize.listeners.ScoreIterationListener - Score at iteration 14 is 0.022169348909024673
+2021-11-01 09:18:48.527 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - batch: 15
+2021-11-01 09:19:00.078 [main] INFO  o.d.optimize.listeners.ScoreIterationListener - Score at iteration 15 is 0.019484540705455793
+2021-11-01 09:19:00.466 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - batch: 16
+2021-11-01 09:19:12.990 [main] INFO  o.d.optimize.listeners.ScoreIterationListener - Score at iteration 16 is 0.025987707753671496
+2021-11-01 09:19:13.387 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - batch: 17
+2021-11-01 09:19:25.796 [main] INFO  o.d.optimize.listeners.ScoreIterationListener - Score at iteration 17 is 0.02974864198327898
+2021-11-01 09:19:26.178 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - batch: 18
+2021-11-01 09:19:39.124 [main] INFO  o.d.optimize.listeners.ScoreIterationListener - Score at iteration 18 is 0.03662277800468188
+2021-11-01 09:19:39.506 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - batch: 19
+2021-11-01 09:19:52.361 [main] INFO  o.d.optimize.listeners.ScoreIterationListener - Score at iteration 19 is 0.035661113183602024
+2021-11-01 09:19:52.743 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - batch: 20
+2021-11-01 09:20:04.825 [main] INFO  o.d.optimize.listeners.ScoreIterationListener - Score at iteration 20 is 0.026162533989059707
+2021-11-01 09:20:05.208 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - batch: 21
+2021-11-01 09:20:17.077 [main] INFO  o.d.optimize.listeners.ScoreIterationListener - Score at iteration 21 is 0.021929093051188023
+2021-11-01 09:20:17.460 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - batch: 22
+2021-11-01 09:20:29.613 [main] INFO  o.d.optimize.listeners.ScoreIterationListener - Score at iteration 22 is 0.024369287919807813
+2021-11-01 09:20:29.996 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - batch: 23
+2021-11-01 09:20:42.119 [main] INFO  o.d.optimize.listeners.ScoreIterationListener - Score at iteration 23 is 0.023778643933890387
+2021-11-01 09:20:42.501 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - batch: 24
+2021-11-01 09:20:53.763 [main] INFO  o.d.optimize.listeners.ScoreIterationListener - Score at iteration 24 is 0.025662934228234645
+2021-11-01 09:20:54.105 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - batch: 25
+2021-11-01 09:20:54.180 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - *** Completed epoch 0 ***
+2021-11-01 09:20:58.547 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - ****************Extracting features finished****************
+2021-11-01 09:20:58.548 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - Load testing data....
+2021-11-01 09:20:58.548 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - Load a model....
+2021-11-01 09:21:01.520 [main] INFO  e.l.u.s.d.MethodBodyCodeLearner$CNNFeatureExtractor - ****************Deep learning finished********************
+2021-11-01 09:21:09.801 [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+2021-11-01 09:21:09.861 [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for NativeOps: 8
+2021-11-01 09:21:09.935 [main] INFO  org.reflections.Reflections - Reflections took 52 ms to scan 10 urls, producing 29 keys and 189 values 
+2021-11-01 09:21:10.036 [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for BLAS: 8
+2021-11-01 09:21:10.038 [main] INFO  o.n.l.api.ops.executioner.DefaultOpExecutioner - Backend used: [CPU]; OS: [Linux]
+2021-11-01 09:21:10.038 [main] INFO  o.n.l.api.ops.executioner.DefaultOpExecutioner - Cores: [16]; Memory: [48.0GB];
+2021-11-01 09:21:10.038 [main] INFO  o.n.l.api.ops.executioner.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+2021-11-01 09:21:10.114 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Starting vocabulary building...
+2021-11-01 09:21:12.767 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [25537], Current vocabulary size: [27771]; Sequences/sec: [9625.71];
+2021-11-01 09:21:12.773 [main] INFO  o.d.models.embeddings.loader.WordVectorSerializer - Projected memory use for model: [63.56 MB]
+2021-11-01 09:21:12.806 [main] INFO  o.d.models.embeddings.inmemory.InMemoryLookupTable - Initializing syn1...
+2021-11-01 09:21:12.814 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Building learning algorithms:
+2021-11-01 09:21:12.814 [main] INFO  o.d.models.sequencevectors.SequenceVectors -           building SequenceLearningAlgorithm: [PV-DBOW]
+2021-11-01 09:21:12.817 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Starting learning process...
+2021-11-01 09:21:13.567 [VectorCalculationsThread 15] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [266366];  Lines vectorized so far: [100026]; Seq/sec: [133868.81]; Words/sec: [356580.99]; learningRate: [0.010832464465060858]
+2021-11-01 09:21:13.788 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [342275];  Lines vectorized so far: [127685]; learningRate: [1.0E-4]
+2021-11-01 09:21:13.788 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Time spent on training: 971 ms
+2021-11-01 09:21:13.932 [main] INFO  org.reflections.Reflections - Reflections took 129 ms to scan 10 urls, producing 373 keys and 1449 values 
+2021-11-01 09:21:48.996 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Starting vocabulary building...
+2021-11-01 09:21:51.641 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [25537], Current vocabulary size: [27781]; Sequences/sec: [9654.82];
+2021-11-01 09:21:51.642 [main] INFO  o.d.models.embeddings.loader.WordVectorSerializer - Projected memory use for model: [63.59 MB]
+2021-11-01 09:21:51.666 [main] INFO  o.d.models.embeddings.inmemory.InMemoryLookupTable - Initializing syn1...
+2021-11-01 09:21:51.675 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Building learning algorithms:
+2021-11-01 09:21:51.676 [main] INFO  o.d.models.sequencevectors.SequenceVectors -           building SequenceLearningAlgorithm: [PV-DBOW]
+2021-11-01 09:21:51.676 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Starting learning process...
+2021-11-01 09:21:52.318 [VectorCalculationsThread 2] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [368303];  Lines vectorized so far: [100015]; Seq/sec: [156494.52]; Words/sec: [576374.02]; learningRate: [0.009595161006952289]
+2021-11-01 09:21:52.464 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [469960];  Lines vectorized so far: [127685]; learningRate: [1.0E-4]
+2021-11-01 09:21:52.465 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Time spent on training: 789 ms
+2021-11-01 09:22:26.761 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Starting vocabulary building...
+2021-11-01 09:22:29.293 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [25537], Current vocabulary size: [27769]; Sequences/sec: [10085.70];
+2021-11-01 09:22:29.293 [main] INFO  o.d.models.embeddings.loader.WordVectorSerializer - Projected memory use for model: [63.56 MB]
+2021-11-01 09:22:29.316 [main] INFO  o.d.models.embeddings.inmemory.InMemoryLookupTable - Initializing syn1...
+2021-11-01 09:22:29.324 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Building learning algorithms:
+2021-11-01 09:22:29.324 [main] INFO  o.d.models.sequencevectors.SequenceVectors -           building SequenceLearningAlgorithm: [PV-DBOW]
+2021-11-01 09:22:29.325 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Starting learning process...
+2021-11-01 09:22:29.727 [VectorCalculationsThread 8] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [266570];  Lines vectorized so far: [100000]; Seq/sec: [250000.00]; Words/sec: [666425.00]; learningRate: [0.010820753412270344]
+2021-11-01 09:22:29.834 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [342310];  Lines vectorized so far: [127685]; learningRate: [1.0E-4]
+2021-11-01 09:22:29.834 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Time spent on training: 509 ms
+2021-11-01 09:23:04.595 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Starting vocabulary building...
+2021-11-01 09:23:07.117 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [25537], Current vocabulary size: [27779]; Sequences/sec: [10125.69];
+2021-11-01 09:23:07.117 [main] INFO  o.d.models.embeddings.loader.WordVectorSerializer - Projected memory use for model: [63.58 MB]
+2021-11-01 09:23:07.141 [main] INFO  o.d.models.embeddings.inmemory.InMemoryLookupTable - Initializing syn1...
+2021-11-01 09:23:07.149 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Building learning algorithms:
+2021-11-01 09:23:07.149 [main] INFO  o.d.models.sequencevectors.SequenceVectors -           building SequenceLearningAlgorithm: [PV-DBOW]
+2021-11-01 09:23:07.149 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Starting learning process...
+2021-11-01 09:23:07.737 [VectorCalculationsThread 4] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [369151];  Lines vectorized so far: [100000]; Seq/sec: [170648.46]; Words/sec: [629950.51]; learningRate: [0.00955929594431803]
+2021-11-01 09:23:07.888 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [469995];  Lines vectorized so far: [127685]; learningRate: [1.0E-4]
+2021-11-01 09:23:07.888 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Time spent on training: 738 ms

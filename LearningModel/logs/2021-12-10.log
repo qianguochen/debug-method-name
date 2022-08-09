@@ -1,0 +1,74 @@
+2021-12-10 11:08:27.068 [main] INFO  edu.lu.uni.serval.deeplearner.Word2VecEncoder - Load & Vectorize Sentences....
+2021-12-10 11:08:27.074 [main] INFO  edu.lu.uni.serval.deeplearner.Word2VecEncoder - ****************Building model****************
+2021-12-10 11:08:27.126 [main] INFO  org.nd4j.linalg.factory.Nd4jBackend - Loaded [CpuBackend] backend
+2021-12-10 11:08:27.243 [main] INFO  org.nd4j.nativeblas.NativeOpsHolder - Number of threads used for NativeOps: 8
+2021-12-10 11:08:27.416 [main] INFO  org.reflections.Reflections - Reflections took 115 ms to scan 10 urls, producing 29 keys and 189 values 
+2021-12-10 11:08:27.604 [main] INFO  org.nd4j.nativeblas.Nd4jBlas - Number of threads used for BLAS: 8
+2021-12-10 11:08:27.607 [main] INFO  o.n.l.api.ops.executioner.DefaultOpExecutioner - Backend used: [CPU]; OS: [Linux]
+2021-12-10 11:08:27.607 [main] INFO  o.n.l.api.ops.executioner.DefaultOpExecutioner - Cores: [16]; Memory: [64.0GB];
+2021-12-10 11:08:27.607 [main] INFO  o.n.l.api.ops.executioner.DefaultOpExecutioner - Blas vendor: [OPENBLAS]
+2021-12-10 11:08:27.700 [main] INFO  edu.lu.uni.serval.deeplearner.Word2VecEncoder - ****************Fitting Word2Vec model****************
+2021-12-10 11:08:27.716 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Starting vocabulary building...
+2021-12-10 11:08:28.976 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [100000]; Current vocabulary size: [41561]; Sequences/sec: 79428.12; Words/sec: 1741552.82;
+2021-12-10 11:08:29.804 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [200000]; Current vocabulary size: [77936]; Sequences/sec: 120772.95; Words/sec: 2701841.79;
+2021-12-10 11:08:30.582 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [300000]; Current vocabulary size: [117742]; Sequences/sec: 128534.70; Words/sec: 2867214.65;
+2021-12-10 11:08:31.387 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [400000]; Current vocabulary size: [167806]; Sequences/sec: 124223.60; Words/sec: 2945458.39;
+2021-12-10 11:08:32.136 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [500000]; Current vocabulary size: [197516]; Sequences/sec: 133511.35; Words/sec: 2135024.03;
+2021-12-10 11:08:32.913 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [600000]; Current vocabulary size: [236569]; Sequences/sec: 128700.13; Words/sec: 2836584.30;
+2021-12-10 11:08:33.781 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [700000]; Current vocabulary size: [277858]; Sequences/sec: 115340.25; Words/sec: 2837171.86;
+2021-12-10 11:08:34.645 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [800000]; Current vocabulary size: [325362]; Sequences/sec: 115740.74; Words/sec: 2659024.31;
+2021-12-10 11:08:35.430 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [900000]; Current vocabulary size: [365130]; Sequences/sec: 127226.46; Words/sec: 2742529.26;
+2021-12-10 11:08:36.288 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [1000000]; Current vocabulary size: [401337]; Sequences/sec: 116686.11; Words/sec: 2623138.86;
+2021-12-10 11:08:37.126 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [1100000]; Current vocabulary size: [422149]; Sequences/sec: 119331.74; Words/sec: 2752342.48;
+2021-12-10 11:08:37.976 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [1200000]; Current vocabulary size: [466303]; Sequences/sec: 117647.06; Words/sec: 2670835.29;
+2021-12-10 11:08:38.841 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [1300000]; Current vocabulary size: [496785]; Sequences/sec: 115473.44; Words/sec: 2669258.66;
+2021-12-10 11:08:39.751 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [1400000]; Current vocabulary size: [524383]; Sequences/sec: 109890.11; Words/sec: 2566839.56;
+2021-12-10 11:08:40.611 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [1500000]; Current vocabulary size: [566248]; Sequences/sec: 116414.44; Words/sec: 2779923.17;
+2021-12-10 11:08:41.437 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [1600000]; Current vocabulary size: [601486]; Sequences/sec: 120918.98; Words/sec: 2783857.32;
+2021-12-10 11:08:42.236 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [1700000]; Current vocabulary size: [636493]; Sequences/sec: 125156.45; Words/sec: 2984630.79;
+2021-12-10 11:08:43.101 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [1800000]; Current vocabulary size: [670237]; Sequences/sec: 115740.74; Words/sec: 2751456.02;
+2021-12-10 11:08:43.885 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [1900000]; Current vocabulary size: [702583]; Sequences/sec: 127551.02; Words/sec: 2842330.36;
+2021-12-10 11:08:44.660 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [2000000]; Current vocabulary size: [738011]; Sequences/sec: 129032.26; Words/sec: 2904219.35;
+2021-12-10 11:08:45.468 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [2100000]; Current vocabulary size: [764798]; Sequences/sec: 123609.39; Words/sec: 2830953.03;
+2021-12-10 11:08:46.507 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [2200000]; Current vocabulary size: [797716]; Sequences/sec: 96246.39; Words/sec: 2215360.92;
+2021-12-10 11:08:47.412 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [2300000]; Current vocabulary size: [822137]; Sequences/sec: 110497.24; Words/sec: 2376208.84;
+2021-12-10 11:08:48.285 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [2400000]; Current vocabulary size: [837495]; Sequences/sec: 114547.54; Words/sec: 2485829.32;
+2021-12-10 11:08:49.125 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [2500000]; Current vocabulary size: [864446]; Sequences/sec: 119047.62; Words/sec: 2635991.67;
+2021-12-10 11:08:56.155 [main] INFO  o.d.models.word2vec.wordstore.VocabConstructor - Sequences checked: [2545834], Current vocabulary size: [873261]; Sequences/sec: [89522.26];
+2021-12-10 11:08:56.163 [main] INFO  o.d.models.embeddings.loader.WordVectorSerializer - Projected memory use for model: [1.95 GB]
+2021-12-10 11:08:57.534 [main] INFO  o.d.models.embeddings.inmemory.InMemoryLookupTable - Initializing syn1...
+2021-12-10 11:08:57.899 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Building learning algorithms:
+2021-12-10 11:08:57.900 [main] INFO  o.d.models.sequencevectors.SequenceVectors -           building ElementsLearningAlgorithm: [SkipGram]
+2021-12-10 11:08:57.902 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Starting learning process...
+2021-12-10 11:09:12.892 [VectorCalculationsThread 3] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [2190969];  Lines vectorized so far: [100004]; Seq/sec: [6672.89]; Words/sec: [146201.05]; learningRate: [0.00961801975009449]
+2021-12-10 11:09:27.451 [VectorCalculationsThread 5] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [4422658];  Lines vectorized so far: [200004]; Seq/sec: [6869.08]; Words/sec: [149697.33]; learningRate: [0.009228962495448948]
+2021-12-10 11:09:41.452 [VectorCalculationsThread 10] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [6661611];  Lines vectorized so far: [300000]; Seq/sec: [7142.35]; Words/sec: [152982.23]; learningRate: [0.008838586147931333]
+2021-12-10 11:09:56.469 [VectorCalculationsThread 13] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [9028781];  Lines vectorized so far: [400001]; Seq/sec: [6658.68]; Words/sec: [154171.93]; learningRate: [0.008425881285581707]
+2021-12-10 11:10:05.904 [VectorCalculationsThread 14] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [10629534];  Lines vectorized so far: [500000]; Seq/sec: [10598.83]; Words/sec: [156321.27]; learningRate: [0.008146825148660773]
+2021-12-10 11:10:19.702 [VectorCalculationsThread 3] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [12834846];  Lines vectorized so far: [600000]; Seq/sec: [7247.43]; Words/sec: [156912.88]; learningRate: [0.007762314632451753]
+2021-12-10 11:10:35.000 [VectorCalculationsThread 15] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [15262954];  Lines vectorized so far: [700000]; Seq/sec: [6536.80]; Words/sec: [157197.71]; learningRate: [0.007339110027949391]
+2021-12-10 11:10:49.729 [VectorCalculationsThread 12] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [17592699];  Lines vectorized so far: [800000]; Seq/sec: [6789.33]; Words/sec: [157326.30]; learningRate: [0.006932805538111873]
+2021-12-10 11:11:03.160 [VectorCalculationsThread 15] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [19752625];  Lines vectorized so far: [900000]; Seq/sec: [7446.02]; Words/sec: [157701.81]; learningRate: [0.006556233290030149]
+2021-12-10 11:11:17.234 [VectorCalculationsThread 15] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [21997227];  Lines vectorized so far: [1000000]; Seq/sec: [7104.80]; Words/sec: [157880.88]; learningRate: [0.006164899963821707]
+2021-12-10 11:11:31.580 [VectorCalculationsThread 3] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [24297476];  Lines vectorized so far: [1100000]; Seq/sec: [6971.07]; Words/sec: [158111.55]; learningRate: [0.005764095704215234]
+2021-12-10 11:11:45.866 [VectorCalculationsThread 1] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [26577888];  Lines vectorized so far: [1200000]; Seq/sec: [6999.37]; Words/sec: [158239.39]; learningRate: [0.005366286514189689]
+2021-12-10 11:12:00.071 [VectorCalculationsThread 5] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [28880034];  Lines vectorized so far: [1300001]; Seq/sec: [7040.27]; Words/sec: [158538.65]; learningRate: [0.004964939519173388]
+2021-12-10 11:12:14.727 [VectorCalculationsThread 9] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [31221162];  Lines vectorized so far: [1400000]; Seq/sec: [6822.68]; Words/sec: [158627.19]; learningRate: [0.004556827596636324]
+2021-12-10 11:12:29.633 [VectorCalculationsThread 0] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [33603458];  Lines vectorized so far: [1500001]; Seq/sec: [6708.71]; Words/sec: [158711.26]; learningRate: [0.004141429455580943]
+2021-12-10 11:12:44.171 [VectorCalculationsThread 3] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [35910517];  Lines vectorized so far: [1600000]; Seq/sec: [6878.53]; Words/sec: [158709.99]; learningRate: [0.003739189640765821]
+2021-12-10 11:12:59.135 [VectorCalculationsThread 0] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [38290283];  Lines vectorized so far: [1700000]; Seq/sec: [6682.71]; Words/sec: [158730.02]; learningRate: [0.003324564893310824]
+2021-12-10 11:13:14.003 [VectorCalculationsThread 15] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [40670616];  Lines vectorized so far: [1800000]; Seq/sec: [6725.85]; Words/sec: [158809.42]; learningRate: [0.0029092903627294443]
+2021-12-10 11:13:27.836 [VectorCalculationsThread 9] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [42898651];  Lines vectorized so far: [1900000]; Seq/sec: [7229.09]; Words/sec: [158925.10]; learningRate: [0.0025208834142447277]
+2021-12-10 11:13:41.905 [VectorCalculationsThread 7] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [45148909];  Lines vectorized so far: [2000000]; Seq/sec: [7107.83]; Words/sec: [158975.59]; learningRate: [0.002128535052521986]
+2021-12-10 11:13:56.176 [VectorCalculationsThread 0] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [47445418];  Lines vectorized so far: [2100000]; Seq/sec: [7007.22]; Words/sec: [159068.69]; learningRate: [0.0017281384110935329]
+2021-12-10 11:14:10.538 [VectorCalculationsThread 2] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [49737704];  Lines vectorized so far: [2200005]; Seq/sec: [6963.30]; Words/sec: [159093.96]; learningRate: [0.0013285027847835817]
+2021-12-10 11:14:23.660 [VectorCalculationsThread 7] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [51886883];  Lines vectorized so far: [2300000]; Seq/sec: [7620.21]; Words/sec: [159282.41]; learningRate: [9.537923649837577E-4]
+2021-12-10 11:14:37.010 [VectorCalculationsThread 2] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [54058336];  Lines vectorized so far: [2400000]; Seq/sec: [7491.20]; Words/sec: [159415.68]; learningRate: [5.752121876649685E-4]
+2021-12-10 11:14:50.424 [VectorCalculationsThread 10] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [56273839];  Lines vectorized so far: [2500000]; Seq/sec: [7454.34]; Words/sec: [159633.94]; learningRate: [1.889538646832134E-4]
+2021-12-10 11:14:57.003 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Epoch: [1]; Words vectorized so far: [57357599];  Lines vectorized so far: [2545834]; learningRate: [1.0E-4]
+2021-12-10 11:14:57.003 [main] INFO  o.d.models.sequencevectors.SequenceVectors - Time spent on training: 359101 ms
+2021-12-10 11:14:57.003 [main] INFO  edu.lu.uni.serval.deeplearner.Word2VecEncoder - ****************Writing word vectors to text file****************
+2021-12-10 11:14:57.184 [main] INFO  org.reflections.Reflections - Reflections took 176 ms to scan 10 urls, producing 373 keys and 1449 values 
+2021-12-10 11:18:15.881 [main] INFO  o.d.models.embeddings.loader.WordVectorSerializer - Wrote 873261 with size of 300
+2021-12-10 11:18:15.881 [main] INFO  edu.lu.uni.serval.deeplearner.Word2VecEncoder - ****************Finish off embedding****************
+
